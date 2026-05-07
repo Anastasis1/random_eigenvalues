@@ -76,7 +76,3 @@ def generate_and_plot_eigenvalues(size=5, is_symmetric=False):
 
     plt.tight_layout()
     plt.show()
-
-# --- Run the function ---
-# Try increasing 'size' to 10 or 20 to see the auto-zoom in action
-generate_and_plot_eigenvalues(size=8, is_symmetric=False)
